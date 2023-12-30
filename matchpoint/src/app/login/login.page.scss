@@ -1,0 +1,67 @@
+page-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  ion-header {
+    ion-toolbar {
+      text-align: center;
+
+      ion-title {
+        margin: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  .section {
+
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      // Estilos para a imagem, se necessário
+    }
+  }
+
+  .forgot-password {
+    // Estilos para a seção de esqueceu a senha, se necessário
+  }
+
+  .signup {
+    margin-top: 2rem; // Ajuste conforme necessário
+    // Estilos para a seção de cadastro, se necessário
+  }
+}
+
+.teste {
+  padding: 2rem;
+  margin-top: 150px;
+
+  ion-list {
+    width: 100%;
+    margin-bottom: 20px;
+
+    ion-item {
+      ion-input {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
